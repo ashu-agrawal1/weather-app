@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  height: 315px;
+  width: 742px;
+  margin-top: 50px;
+  border-radius: 25px;
+  background-color: #ffffff87;
+  box-shadow: 0px 0px 10px grey;
+  display: flex;
+}
+
+.temp-desplay {
+  margin-top: 37px;
+}
+
+.container img {
+  height: 250px;
+  width: 250px;
+  margin-top: 24px;
+}
+
+.day-container {
+  justify-content: center;
+  height: 157px;
+  margin-left: 32px;
+  width: 117px;
+  border-radius: 39px;
+  border-width: 0px;
+  background-color: #ffffff87;
+  border-color: #bdbdbdf0;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.days {
+  display: flex;
+  margin-top: 20px;
+}
+
+.body input {
+  border-radius: 20px;
+  height: 28px;
+  width: 379px;
+  padding-left: 22px;
+  font-size: 16px;
+  /* border-color: black; */
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid rgb(214, 197, 197);
+  border-right: 1px solid rgb(214, 197, 197);
+  margin-top: 30px;
+}
+
+.day-container h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.day-container img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.day-container h2 {
+  margin: 0;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-p {
+  text-align: center;
+  margin: 0;
+}
+
+.card-dot {
+  margin: 11px 0px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+}
