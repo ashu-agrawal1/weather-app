@@ -6,7 +6,7 @@ body {
 .body {
   display: flex;
   height: 100vh;
-  background-image: url("background.jpg");
+  background-image: url("https://media.istockphoto.com/id/1301265132/photo/above-the-clouds-flying-over-the-ocean-on-a-clear-blue-sky-day.webp?b=1&s=170667a&w=0&k=20&c=VYHYRslrPiZ1471QyA6T86HV9FeyT4lJ0XP1hbTxcoU=");
   background-size: cover;
   flex-direction: column;
   align-items: center;

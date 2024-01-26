@@ -32,8 +32,6 @@ function App() {
       fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${inputData || 'Delhi'}&APPID=407141f6d99e830681e770ad7e16c024&units=metric`)
         .then(res => res.json())
         .then((res) => {
-          console.log("rewrerw", res);
-          console.log("checking",res.cod );
           if (res?.cod != "200") {
             alert('Please Enter Valid city')
             setInputData('')
